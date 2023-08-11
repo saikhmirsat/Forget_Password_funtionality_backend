@@ -4,8 +4,6 @@ const cors = require("cors");
 const { UserRoute } = require('./routes/UserRoute')
 
 
-
-
 const app = express();
 app.use(cors());
 app.use(express.json());
